@@ -19,6 +19,7 @@
     "react-native-fs": "^2.20.0",
     "react-native-image-crop-picker": "^0.50.1",
     "react-native-image-picker": "^8.2.1",
+    "react-native-paper": "^5.14.5",
     "react-native-vision-camera": "^4.6.4"
   },
   "devDependencies": {
