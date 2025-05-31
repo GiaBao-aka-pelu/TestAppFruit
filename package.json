@@ -1,5 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "Test1",
+=======
+  "name": "TestApp",
+>>>>>>> 56335ddf60d6d7697180413888dbe47c422617d3
   "version": "0.0.1",
   "private": true,
   "scripts": {
@@ -10,6 +14,7 @@
     "test": "jest"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@bam.tech/react-native-image-resizer": "^3.0.11",
     "buffer": "^6.0.3",
     "jpeg-js": "^0.4.4",
@@ -20,11 +25,26 @@
     "react-native-image-crop-picker": "^0.50.1",
     "react-native-image-picker": "^8.2.1",
     "react-native-vision-camera": "^4.6.4"
+=======
+    "@emotion/react": "^11.14.0",
+    "@emotion/styled": "^11.14.0",
+    "@mui/icons-material": "^7.0.1",
+    "@mui/material": "^7.0.1",
+    "react": "19.0.0",
+    "react-native": "0.78.2",
+    "react-native-fast-tflite": "^1.6.0",
+    "react-native-image-picker": "^8.2.0",
+    "react-native-paper": "^5.13.1",
+    "react-native-safe-area-context": "^5.3.0",
+    "react-native-tflite": "^0.0.2",
+    "react-native-vector-icons": "^10.2.0"
+>>>>>>> 56335ddf60d6d7697180413888dbe47c422617d3
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
     "@babel/preset-env": "^7.25.3",
     "@babel/runtime": "^7.25.0",
+<<<<<<< HEAD
     "@react-native-community/cli": "18.0.0",
     "@react-native-community/cli-platform-android": "18.0.0",
     "@react-native-community/cli-platform-ios": "18.0.0",
@@ -32,6 +52,15 @@
     "@react-native/eslint-config": "0.79.2",
     "@react-native/metro-config": "0.79.2",
     "@react-native/typescript-config": "0.79.2",
+=======
+    "@react-native-community/cli": "15.0.1",
+    "@react-native-community/cli-platform-android": "15.0.1",
+    "@react-native-community/cli-platform-ios": "15.0.1",
+    "@react-native/babel-preset": "0.78.2",
+    "@react-native/eslint-config": "0.78.2",
+    "@react-native/metro-config": "0.78.2",
+    "@react-native/typescript-config": "0.78.2",
+>>>>>>> 56335ddf60d6d7697180413888dbe47c422617d3
     "@types/jest": "^29.5.13",
     "@types/react": "^19.0.0",
     "@types/react-test-renderer": "^19.0.0",

@@ -77,9 +77,15 @@ android {
     buildToolsVersion rootProject.ext.buildToolsVersion
     compileSdk rootProject.ext.compileSdkVersion
 
+<<<<<<< HEAD
     namespace "com.test1"
     defaultConfig {
         applicationId "com.test1"
+=======
+    namespace "com.testapp"
+    defaultConfig {
+        applicationId "com.testapp"
+>>>>>>> 56335ddf60d6d7697180413888dbe47c422617d3
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode 1
@@ -117,3 +123,7 @@ dependencies {
         implementation jscFlavor
     }
 }
+<<<<<<< HEAD
+=======
+apply from: "../../node_modules/react-native-vector-icons/fonts.gradle"
+>>>>>>> 56335ddf60d6d7697180413888dbe47c422617d3

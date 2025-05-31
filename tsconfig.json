@@ -1,3 +1,11 @@
 {
+<<<<<<< HEAD
   "extends": "@react-native/typescript-config/tsconfig.json"
 }
+=======
+  "extends": "@react-native/typescript-config/tsconfig.json",
+  "compilerOptions": {
+    "typeRoots": ["./node_modules/@types", "./src/types"]
+  }
+}
+>>>>>>> 56335ddf60d6d7697180413888dbe47c422617d3

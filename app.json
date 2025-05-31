@@ -1,4 +1,9 @@
 {
+<<<<<<< HEAD
   "name": "Test1",
   "displayName": "Test1"
+=======
+  "name": "TestApp",
+  "displayName": "TestApp"
+>>>>>>> 56335ddf60d6d7697180413888dbe47c422617d3
 }

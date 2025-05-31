@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import { Buffer } from 'buffer';
 global.Buffer = global.Buffer || Buffer;
 import React, { useState, useEffect, useCallback } from 'react';
@@ -408,3 +409,21 @@ const styles = StyleSheet.create({
     marginTop: 10,
   },
 });
+=======
+import React from 'react';
+import { Provider as PaperProvider, IconButton } from 'react-native-paper';
+import HomeScreen from './src/screens/HomeScreen';
+
+const App = () => (
+  <PaperProvider>
+    <HomeScreen />
+    {/* Thêm một ví dụ sử dụng IconButton từ react-native-paper */}
+    <IconButton
+      icon="home"  // tên icon, bạn có thể chọn các icon khác từ Material Community Icons
+      onPress={() => console.log('Home pressed')}
+    />
+  </PaperProvider>
+);
+
+export default App;
+>>>>>>> 56335ddf60d6d7697180413888dbe47c422617d3
