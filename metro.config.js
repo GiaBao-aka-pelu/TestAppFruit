@@ -6,6 +6,11 @@ const {getDefaultConfig, mergeConfig} = require('@react-native/metro-config');
  *
  * @type {import('@react-native/metro-config').MetroConfig}
  */
-const config = {};
+const config = {
+    resolver: {
+    // Thêm 'tflite' vào danh sách các phần mở rộng tài sản được hỗ trợ
+    assetExts: ['tflite', ...getDefaultConfig(__dirname).resolver.assetExts],
+  },
+};
 
 module.exports = mergeConfig(getDefaultConfig(__dirname), config);

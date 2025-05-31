@@ -1,0 +1,15 @@
+names:
+- apple
+- belimbing
+- jeruk
+- pisang
+nc: 4
+roboflow:
+  license: CC BY 4.0
+  project: fruit_test-tlx2y
+  url: https://universe.roboflow.com/fruitapp/fruit_test-tlx2y/dataset/1
+  version: 1
+  workspace: fruitapp
+test: ../test/images
+train: ../train/images
+val: ../valid/images
